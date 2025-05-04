@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", serif;
+}
+section{
+    margin: 50px 0;
+}
+.custom-container{
+    width: 800px;
+    margin: 0 auto;
+}
+.alignContentCenter{
+    align-content: center;
+}
+.bottom-line{
+    width: 8%;
+    height: 2px;
+    background-color: #3838fb;
+    margin: 0 auto;
+    opacity: 1;
+}
+
+/* floating button start */
+.floating-btn{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    text-decoration: none;
+    background-color: #4e4ffa;
+    color: white;
+    border: 1px solid rgb(0, 0, 0, 0.3);
+    border-radius: 50%;
+    padding: 10px 15px;
+    z-index: 3;
+}
+.floating-btn:hover{
+    cursor: pointer;
+}
+/* floating button end */
+
+/* header section start */
+header{
+    padding: 15px 0;
+    position: relative;
+    z-index: 2;
+}
+.logo a{
+    text-decoration: none;
+}
+.logo h3{
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    margin: 0 10px;
+    font-size: 12px;
+}
+nav a:hover{
+    color: #3838fb;
+}
+/* header section end */
+
+/* banner section start */
+.banner-section{
+    margin-top: -70px;
+    background-image: url('../images/welcome-hero/welcome-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    padding: 15% 0 376px;
+}
+/* .banner{
+    background-image: url('../images/welcome-hero/welcome-banner.jpg');
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 600px;
+    padding: 15% 0 30%;
+    position: relative;
+    z-index: 1;
+} */
+.banner-section::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left:0;
+    top:0;
+    background-color: rgba(29, 26, 31, 0.4);
+    z-index: 1;
+}
+.banner-section h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    z-index: 2;
+}
+.banner-section p{
+    color: white;
+    font-size: 12px;
+    margin: 30px 0;
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+}
+.banner-section button{
+    color: white;
+    background-color: #4e4ffa;
+    padding: 10px 50px 12px;
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+    position: relative;
+    z-index: 2;
+}
+.banner-section button:hover{
+    background-color: #6666fb;
+}
+
+/* banner section end */
+
+/* info with flex section start */
+.custom-card-parent{
+    display: flex;
+    flex-wrap: wrap;
+}
+.custom-card-flex{
+    padding: 50px 20px;
+    border: 1px solid rgb(0, 0, 0,0.1);
+    text-align: center;
+    margin: 10px;
+    width: 245px;
+}
+.custom-card-flex:hover{
+    background-color: #6666fb;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.custom-card-flex:hover p{
+    color: white;
+    transition: all 0.3s;
+}
+.custom-card-flex img{
+    width: 50px;
+    margin-bottom: 25px;
+}
+/* info with flex section end */
+
+/* info section start */
+.custom-card{
+    padding: 50px 20px;
+    border: 1px solid rgb(0, 0, 0,0.1);
+    text-align: center;
+}
+.custom-card:hover{
+    background-color: #6666fb;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.custom-card:hover p{
+    color: white;
+    transition: all 0.3s;
+}
+.custom-card img{
+    width: 50px;
+    margin-bottom: 25px;
+}
+.custom-card:hover hr{
+    background-color: white;
+    transition: all 0.3s;
+}
+/* info section end */
+
+/* featured section start */
+
+    .featured{
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    .featured p{
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+    .featured hr{
+        margin: 20px auto 0;
+    }
+    .small-card{
+        margin-bottom: 10px;
+    }
+    .small-card:hover{
+        transform: scale(1.1);
+        /* transition: all .4s; */
+    }
+    .small-card img{
+        width: 100%;
+        height: 130px;
+        border: 1px solid rgb(0, 0, 0, 0.1);
+        padding: 30px 20px;
+    }
+    .small-card p{
+        font-size: 10px;
+        padding: 10px 5px;
+        margin: 0;
+        border: 1px solid rgb(0, 0, 0, 0.1);
+        border-top: 0px;
+    }
+    .details h6{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .details .price{
+        font-size: 10px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .details .detail-para{
+        font-size: 10px;
+        margin-bottom: 0px;
+    }
+
+/* featured section end */
+
+/* client section start */
+
+.client{
+    margin-top: 100px;
+}
+
+.client-logo{
+    text-align: center;
+}
+.client-logo:hover img{
+    transform: scale(1.2);
+    transition: all .4s;
+}
+
+.client-logo img{
+    width: 80px;
+    height: 50px;
+}
+
+/* client section end */
+
+/* footer section start */
+footer{
+    background-color: #2a2d54;
+    padding: 10px 0;
+}
+.copyright{
+    align-content: center;
+}
+footer p{
+    color: #a1a2b9;
+    font-size: 10px;
+    margin: 0;
+}
+.footer-icons{
+    text-align: right;
+}
+.footer-icons img{
+    width: 20px;
+}
+.footer-icons a{
+    text-decoration: none;
+}
+/* footer section end */
+
+
+/* media queries */
+@media (min-width: 1400px) and (max-width: 1920px){
+    .custom-container{
+        width: 1500px;
+    }
+    .custom-container .col-md-7{
+        text-align: right;
+    }
+    .floating-btn {
+        right: 50px;
+        bottom: 50px;
+        padding: 20px 25px;
+    }
+
+    /* header start */
+    header {
+        padding: 30px 0;
+    }
+    nav a{
+        font-size: 20px;
+    }
+    .logo h3{
+        font-size: 40px;
+    }
+    /* header end */
+
+    /* banner start */
+    .banner-section {
+        margin-top: -106px;
+    }
+    .banner-section::before{
+        height: 857px;
+    }
+    .banner-section h2{
+        font-size: 50px;
+        margin-bottom: 0;
+    }
+    .banner-section p{
+        font-size: 18px;
+    }.banner-section button {
+        font-size: 18px;
+        padding: 18px 70px;
+    }
+    /* banner end */
+
+    /* info flex start */
+    /* .custom-card-parent{
+        justify-content: center;
+    }
+    .custom-card-flex{
+        width: 400px;
+        margin: 20px;
+        padding: 60px 40px;
+    }
+    .custom-card-flex p{
+        font-size: 20px;
+    } */
+    /* info flex end */
+
+    /* info start */
+    .info .col-md-4{
+        margin: 0 25px;
+        width: 450px;
+    }
+    .custom-card p{
+        font-size: 20px;
+    }
+    /* info end */
+
+    /* featured car start */
+    .featured p{
+        font-size: 20px;
+    }
+    .featured h3{
+        font-size: 40px;
+    }
+    .featured hr{
+        margin-top: 30px;
+    }
+    .small-card img{
+        height: 220px;
+        padding: 50px 30px;
+    }
+    .small-card p {
+        font-size: 20px;
+    }
+    .details h6 {
+        font-size: 20px;
+    }
+    .details .price {
+        font-size: 18px;
+    }
+    .details .detail-para {
+        font-size: 15px;
+    }
+    /* featured car end */
+
+}
+/* @media (max-width: 1280px) {
+    .banner-section::before{
+        height: 570px;
+    }
+}
+@media (max-width: 1080px) {
+    .banner-section::before{
+        height: 470px;
+    }
+}
+@media (max-width: 810px) {
+    .banner-section::before{
+        height: 392px;
+    }
+} */

@@ -1,0 +1,32 @@
+
+<!-- Featured Cars -->
+<section class="row">
+    <!-- Heading -->
+    <div class="row">
+        <div class="col-md-2">
+            <p></p>
+            <h3></h3>
+        </div>
+    </div>
+    <!-- Content -->
+    <div class="row">
+        <!-- card 1 -->
+        <div class="col-md-3">
+            <!-- small card -->
+            <div class="row">
+                <div class="col-md-12">
+                    <img src="" alt="">
+                    <p></p>
+                </div>
+            </div>
+            <!-- description -->
+            <div class="row">
+                <div class="col-md-12">
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
